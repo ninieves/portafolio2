@@ -1,42 +1,38 @@
-.gallery {
-  -webkit-column-count: 3;
-  -moz-column-count: 3;
-  column-count: 3;
-  -webkit-column-width: 33%;
-  -moz-column-width: 33%;
-  column-width: 33%; 
-}
-  .gallery .pics {
-  -webkit-transition: all 350ms ease;
-  transition: all 350ms ease; 
-}
-  .gallery .animation {
-  -webkit-transform: scale(1);
-  -ms-transform: scale(1);
-  transform: scale(1); 
+.navbar-brand{
+width: 100px;
+height: auto;
+margin: 0;
 }
 
-@media (max-width: 450px) {
-  .gallery {
-    -webkit-column-count: 1;
-    -moz-column-count: 1;
-    column-count: 1;
-    -webkit-column-width: 100%;
-    -moz-column-width: 100%;
-    column-width: 100%;
+.fondo__transparente {
+    -webkit-animation: fondo__transparente 0.5s;
+    -moz-animation: fondo__transparente 0.5s;
+    -ms-animation: fondo__transparente 0.5s;
+    -o-animation: fondo__transparente 0.5s;
+    animation: fondo__transparente 0.5s;
   }
-}
 
-@media (max-width: 400px) {
-  .btn.filter {
-    padding-left: 1.1rem;
-    padding-right: 1.1rem;
+  .fondo__navbar {
+    background-color: #adeafa;
+    transition: all 0.5s;
+    height: 95px;
+    width: 100vw;
+    margin:0;
+    padding: 0;
+    margin-right: 0;
+    margin-left: 0;
   }
-}
-button.close {
-  position: absolute;
-  right: 0;
-  z-index: 2;
-  padding-right: 1rem;
-  padding-top: .6rem;
+  
+  .nav{
+      margin: 0px;
+  }
+
+@keyframes fondo__transparente {
+    from { 
+        background-color: rgba($color:  #adeafa, $alpha: 1);
+    }
+
+    to {
+        background-color: rgba($color:  #adeafa, $alpha: 0);
+    }
 }

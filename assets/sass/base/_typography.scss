@@ -1,0 +1,86 @@
+h1{
+    padding-top: 5px;
+    color: $RaisingBlack;
+    font-family: $fuente1;
+    font-size:$medium;
+    color: rgb(31, 208, 221);
+}
+h2{
+    color: $RaisingBlack;
+    font-family: $fuente2;
+    font-size: $xxx-l;
+    padding-top: 160px;
+    mix-blend-mode: "difference" ;
+    filter: invert(100%);
+    color: white;
+
+}
+h3{
+    color: $RaisingBlack;
+    font-family: $fuente2;
+    font-size: $small;
+    padding: 0;
+    margin: 0;
+    mix-blend-mode: "difference" ;
+    filter: invert(100%);
+    color: white;
+}
+h6{
+    color: $RaisingBlack;
+    font-family: $fuente2;
+    font-size:$small;
+    mix-blend-mode: "difference" ;
+    filter: invert(100%);
+    color: white;
+
+}
+
+@media (min-width: 600px){
+    h1{
+        font-family: $fuente1;
+        font-size:$xxx-l;
+        color: rgb(31, 208, 221);
+        
+    }
+  
+}
+h2{
+    color: $RaisingBlack;
+    font-family: $fuente2;
+    font-size: $xxx-l;
+    padding-top: 150px;
+    color: black;
+
+}
+h3{
+    color: $RaisingBlack;
+    font-family: $fuente2;
+    font-size: $xx-l;
+    padding: 0;
+    margin: 0;
+    color: black;
+}
+h4{
+    color: $RaisingBlack;
+    font-family: $fuente2;
+    font-weight: 300;
+    font-size: $xx-l;
+}
+h5{
+    color: $RaisingBlack;
+    font-family: $fuente2;
+    font-size: $large;
+    $light: 300;
+}
+h6{
+    color: $RaisingBlack;
+    font-family: $fuente2;
+    font-size:$small;
+
+}
+p{
+    font-family: $fuente2;
+    color: $RaisingBlack;
+    font-size: $x-s;
+    line-height: 30px;
+}
