@@ -177,8 +177,7 @@ p {
   margin-left: 30%; }
 
 .tab-content {
-  text-align: center;
-  margin-right: 50%; }
+  text-align: center; }
 
 li {
   padding: 20px;
@@ -187,7 +186,7 @@ li {
 ul {
   text-align: center; }
 
-.proyectouno__ux {
+.caratula {
   background-color: coral;
   width: 200px;
   height: 300px; }
