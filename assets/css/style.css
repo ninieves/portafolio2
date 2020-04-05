@@ -168,89 +168,28 @@ p {
     padding-left: 200px;
     padding-right: 200px;
     text-align: center; } }
-/*tabs*/
-.tile {
-  width: 80%;
-  margin: 60px auto; }
+.proyectos {
+  text-align: center; }
 
-#tile-1 .tab-pane {
-  padding: 15px;
-  height: 80px; }
+.nav-tabs {
+  text-align: center;
+  padding: 30px;
+  margin-left: 30%; }
 
-#tile-1 .nav-tabs {
-  position: relative;
-  border: none !important;
-  background-color: #fff;
-  /*   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2); */
-  border-radius: 6px; }
+.tab-content {
+  text-align: center;
+  margin-right: 50%; }
 
-#tile-1 .nav-tabs li {
-  margin: 0px !important; }
+li {
+  padding: 20px;
+  text-align: center; }
 
-#tile-1 .nav-tabs li a {
-  position: relative;
-  margin-right: 0px !important;
-  padding: 20px 40px !important;
-  font-size: 16px;
-  border: none !important;
-  color: #333; }
+ul {
+  text-align: center; }
 
-#tile-1 .nav-tabs a:hover {
-  background-color: #fff !important;
-  border: none; }
-
-#tile-1 .slider {
-  display: inline-block;
-  width: 30px;
-  height: 4px;
-  border-radius: 3px;
-  background-color: #39bcd3;
-  position: absolute;
-  z-index: 1200;
-  bottom: 0;
-  transition: all .4s linear; }
-
-#tile-1 .nav-tabs .active {
-  background-color: transparent !important;
-  border: none !important;
-  color: #39bcd3 !important; }
-
-.gallery {
-  -webkit-column-count: 3;
-  -moz-column-count: 3;
-  column-count: 3;
-  -webkit-column-width: 33%;
-  -moz-column-width: 33%;
-  column-width: 33%; }
-
-.gallery .pics {
-  -webkit-transition: all 350ms ease;
-  transition: all 350ms ease; }
-
-.gallery .animation {
-  -webkit-transform: scale(1);
-  -ms-transform: scale(1);
-  transform: scale(1); }
-
-@media (max-width: 450px) {
-  .gallery {
-    -webkit-column-count: 1;
-    -moz-column-count: 1;
-    column-count: 1;
-    -webkit-column-width: 100%;
-    -moz-column-width: 100%;
-    column-width: 100%; } }
-@media (max-width: 400px) {
-  .btn.filter {
-    padding-left: 1.1rem;
-    padding-right: 1.1rem; } }
-button.close {
-  position: absolute;
-  right: 0;
-  z-index: 2;
-  padding-right: 1rem;
-  padding-top: .6rem; }
-
-/*fin tabs*/
+.proyectouno__ux {
+  background-color: coral;
+  width: 200px;
+  height: 300px; }
 
 /*# sourceMappingURL=style.css.map */
