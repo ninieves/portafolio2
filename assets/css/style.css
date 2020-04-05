@@ -173,8 +173,7 @@ p {
 
 .nav-tabs {
   text-align: center;
-  padding: 30px;
-  margin-left: 30%; }
+  padding: 30px; }
 
 .tab-content {
   text-align: center; }
@@ -184,12 +183,37 @@ li {
   text-align: center; }
 
 ul {
-  text-align: center; }
+  text-align: center;
+  margin-left: 30%;
+  padding-left: 100px;
+  display: flex;
+  justify-content: center; }
+
+a {
+  text-align: center;
+  text-decoration: none;
+  color: white !important; }
+
+.btn__tabs {
+  width: auto;
+  height: 100%;
+  background-color: black;
+  color: white !important; }
+
+.btn {
+  width: 100%;
+  height: 300px;
+  margin: 0;
+  padding: 0; }
 
 .proyectouno__ux {
   background-color: coral;
   width: 100%;
   height: 300px; }
+
+.proyectos {
+  padding-top: 30px;
+  padding-bottom: 30px; }
 
 .proyectodos__ux {
   background-color: #7b5686;
@@ -215,5 +239,18 @@ ul {
   background-color: #af2c5e;
   width: 100%;
   height: 300px; }
+
+.fondo__hablemos {
+  width: 100vw;
+  height: 300px;
+  background-color: #7b5686; }
+
+.contacto {
+  text-align: center;
+  align-items: center;
+  padding-top: 100px; }
+
+.footer {
+  text-align: center; }
 
 /*# sourceMappingURL=style.css.map */
