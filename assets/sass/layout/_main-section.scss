@@ -22,26 +22,20 @@
 	text-align: center;
 }
 .nav-tabs{
-	text-align: center;
 	padding: 30px;
 }
-.tab-content{
-text-align: center;
-}
+
 
 li{
 	padding: 20px;
-	text-align: center;
 }
-ul{
-	text-align: center;
-	margin-left: 30%;
+.nav-tabs{
+	margin-left: -10%;
 	padding-left: 100px;
 	display: flex;
 	justify-content: center;
 }
 a{
-	text-align: center;
 	text-decoration: none;
 	color: white !important;
 }
