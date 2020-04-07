@@ -1,5 +1,5 @@
 .hero__section{
-  background-image: url(../img/principal_mobile.jpg);
+  background-image: url(../img/.mobile.png);
   background-position: center right;
   background-repeat: no-repeat;
   background-size: cover;
@@ -29,7 +29,7 @@ left: 10px;
 
 @media (min-width: 600px) { 
     .hero__section {
-        background-image: url(../img/imagen_principal.jpg);
+        background-image: url(../img/imagen_principal_nueva.png);
     }
     .texto__inicio{
         position: absolute;
