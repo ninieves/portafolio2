@@ -121,7 +121,7 @@ p {
   to {
     background-color: rgba(173, 234, 250, 0); } }
 .hero__section {
-  background-image: url(../img/.mobile.jpg);
+  background-image: url(../img/mobile.jpg);
   background-position: center right;
   background-repeat: no-repeat;
   background-size: cover;
