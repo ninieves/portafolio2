@@ -1,22 +1,24 @@
 /*colores*/
-$RaisingBlack: #221d23;
-$Nickel:#726f73;
-$SilverChalice: #aeacaf;
-$Blanco: #f7f7f7;
+$black: #221d23;
+$gris:#726f73;
+$gris__claro: #aeacaf;
+$blanco: #f7f7f7;
+$verde: rgb(47, 168, 138);
 
 /*tipografias raleway open sans*/
 @import url('https://fonts.googleapis.com/css?family=Condiment|Ledger');
 
 $fuente1: 'Condiment', sans-serif;
 $fuente2: 'Ledger','Open Sans', sans-serif;
-$xxxx-l:100px;
-$xxxx-l:200px;
-$xxx-l:40px;
-$xx-l:35px;
-$x-l:30px;
-$large:20px;
-$medium:16px;
-$small:14px;
+
+//font-sizes
+
+$xxx-l:90px;
+$xx-l:50px;
+$x-l:45px;
+$l:26px;
+$m:18px;
+$s:15px;
 $x-s:12px;
 
 
