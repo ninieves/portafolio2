@@ -9,7 +9,7 @@ h1 {
   padding-top: 5px;
   color: 900;
   font-family: "Condiment", sans-serif;
-  font-size: 15px; }
+  font-size: 50px; }
 
 h2 {
   color: #f7f7f7;
@@ -20,7 +20,7 @@ h2 {
 h3 {
   color: 900;
   font-family: "Ledger", "Open Sans", sans-serif;
-  font-size: 15px;
+  font-size: 12px;
   padding: 0;
   margin: 0; }
 
@@ -129,7 +129,7 @@ p {
   height: 500px;
   width: 500px;
   width: auto;
-  padding-top: 10px; }
+  display: flex; }
 
 @media (min-width: 600px) {
   .hero__section {
@@ -143,8 +143,18 @@ p {
   .texto__inicio {
     position: absolute;
     width: auto;
-    top: -10px;
-    left: 50px; } }
+    top: -30px;
+    left: 50px; }
+
+  .iconos {
+    padding-top: -50px; }
+
+  .contacto__iconos {
+    padding-left: 40px;
+    padding-top: 10px; }
+
+  .cv {
+    padding-top: 10px; } }
 .info {
   background-color: #d4f8e8;
   margin: 0px;

@@ -14,10 +14,7 @@ position: absolute;
 top: 300px;
 left: 10px;
 color: $blanco;
-
-
-
-               
+             
 
 }
 
@@ -26,8 +23,7 @@ color: $blanco;
     height: 500px;
     width: 500px;
     width: auto;
-    
-    padding-top: 10px;
+    display: flex;
 
 }
 
@@ -45,9 +41,20 @@ color: $blanco;
     .texto__inicio{
         position: absolute;
         width: auto;
-        top: -10px;
+        top: -30px;
         left: 50px;
         
-        }
+    }
+    .iconos{
+        padding-top: -50px;
+        
+    }
+    .contacto__iconos{
+        padding-left: 40px;
+        padding-top: 10px;
+    }
+    .cv{
+        padding-top: 10px;
+    }
         
     }
