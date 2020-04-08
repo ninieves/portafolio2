@@ -12,7 +12,7 @@ h1 {
   font-size: 15px; }
 
 h2 {
-  color: 900;
+  color: #f7f7f7;
   font-family: "Ledger", "Open Sans", sans-serif;
   font-size: 90px;
   padding-top: 160px; }
@@ -123,8 +123,7 @@ p {
   position: absolute;
   top: 300px;
   left: 10px;
-  color: !important 900;
-  mix-blend-mode: difference; }
+  color: #f7f7f7; }
 
 .iconos {
   height: 500px;
@@ -136,8 +135,14 @@ p {
   .hero__section {
     background-image: url(../img/imagen_principal.jpg); }
 
+  .cambio__color {
+    mix-blend-mode: difference;
+    filter: 100%;
+    color: white; }
+
   .texto__inicio {
     position: absolute;
+    width: auto;
     top: -10px;
     left: 50px; } }
 .info {

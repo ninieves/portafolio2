@@ -13,8 +13,9 @@
 position: absolute;
 top: 300px;
 left: 10px;
-color: !important $black;
-mix-blend-mode: difference;
+color: $blanco;
+
+
 
                
 
@@ -35,9 +36,18 @@ mix-blend-mode: difference;
     .hero__section {
         background-image: url(../img/imagen_principal.jpg);
     }
+    .cambio__color{
+        mix-blend-mode: difference;
+        filter: 100%;
+        color: white;
+        
+    }
     .texto__inicio{
         position: absolute;
+        width: auto;
         top: -10px;
         left: 50px;
+        
         }
+        
     }

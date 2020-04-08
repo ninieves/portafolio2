@@ -5,10 +5,13 @@ h1{
     font-size:$s;
 }
 h2{
-    color: $black;
+    color: $blanco;
     font-family: $fuente2;
     font-size: $xxx-l;
     padding-top: 160px;
+    //mix-blend-mode: difference;
+    //filter: invert(100%);
+    //color: white;
    
 
 }
