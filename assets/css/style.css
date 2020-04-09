@@ -135,11 +135,6 @@ p {
   .hero__section {
     background-image: url(../img/imagen_principal.jpg); }
 
-  .cambio__color {
-    mix-blend-mode: difference;
-    filter: 100%;
-    color: white; }
-
   .texto__inicio {
     position: absolute;
     width: auto;
