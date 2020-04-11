@@ -122,7 +122,9 @@ p {
 .texto__inicio {
   position: absolute;
   top: 300px;
-  left: 10px; }
+  left: 10px;
+  margin: 0;
+  padding: 0; }
 
 .iconos {
   height: 500px;
@@ -137,8 +139,8 @@ p {
   .texto__inicio {
     position: absolute;
     width: auto;
-    top: -30px;
-    left: 50px; }
+    top: -60px;
+    left: 80px; }
 
   .iconos {
     padding-top: -50px; }
@@ -180,14 +182,16 @@ li {
   justify-content: center; }
 
 a {
-  text-decoration: none;
-  color: white !important; }
+  text-decoration: none; }
 
 .btn__tabs {
   width: auto;
   height: 100%;
   background-color: black;
   color: white !important; }
+
+.linea {
+  text-decoration: none; }
 
 .btn {
   width: 100%;
