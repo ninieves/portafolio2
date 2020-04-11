@@ -11,16 +11,46 @@
   <!-- Google Fonts -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
   <!-- Bootstrap core CSS -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+ 
   <!-- Material Design Bootstrap -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.15.0/css/mdb.min.css" rel="stylesheet">
-  <link href="dist/css/bootstrap.min.css" rel="stylesheet">
 
   <!--llamado para los estilos css-->
   <link href="assets/css/style.css" rel="stylesheet">
   <!--favicon-->
-  <link rel="shortcut icon" href="/assets/img/icono.png">
+  <link rel="shortcut icon" href="assets/img/icono.png">
   <title>Ninive Olivares</title>
+
+  <!-- ESTILOS GRILLA ISOTOPE -->
+  <style>
+    .grid-item{
+      width: 25%;
+      height: 300px;
+      background-color: grey;
+    }
+    .grid-item:after{
+      content:"";
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      border: solid 5px #FFF;
+      width: 100%;
+      height: 100%;
+    }
+    .uxui{
+      background-color: blue;
+    }
+    .grafica{
+      background-color: magenta;
+    }
+    .editorial{
+      background-color: yellow;
+    }
+    .packaging{
+      background-color: red;
+    }
+  </style>
 </head>
 <nav class="navbar navbar-expand-lg navbar-dark color__navbar scrolling-navbar fixed-top">
   <div class="container">
@@ -129,186 +159,52 @@
 <section id="proyectos">
   <div class="proyectos">
     <h4>Proyectos</h4>
+
     <div class="container">
-
-
       <ul class="nav nav-tabs mx-auto">
-
-        <li class="in active"><a href="#uxui" data-toggle="tab">
-          <button type="button"class="btn__tabs">UX/UI</a></button></li>
-        <li><a href="#grafica" data-toggle="tab"><button type="button" class="btn__tabs">Gráfica</a></button></li>
-        <li><a href="#editorial" data-toggle="tab"><button type="button" class="btn__tabs">Editorial</a></button></li>
-        <li><a href="#packaging" data-toggle="tab"><button type="button" class="btn__tabs">Packaging</a></button></li>
+        <li><a class="grid-btn" data-filter=".uxui" href="#">UX/UI</a></li>
+        <li><a class="grid-btn" data-filter=".grafica" href="#">Gráfica</a></li>
+        <li><a class="grid-btn" data-filter=".editorial"href="#">Editorial</a></li>
+        <li><a class="grid-btn" data-filter=".packaging" href="#">Packaging</a></li>
       </ul>
     </div>
-    <div class="tab-content">
-      <div class="tab-pane in active" id="uxui">
-        Contenido UX/UI
-        <div class="container">
-          <div class="class row">
-            <div class="col-sm">
-              <button type="button" class="btn">
-                <div class="proyectouno__ux"></div>
-              </button>
+    <!-- / FIN MENU FILTROS GRILLA ISOTOPE / CADA ANCHOR TAG (EL <A>) TIENE UN DATA-FILTER CON LA CLASE DE CADA PROYECTO A FILTRAR  -->
+    
+    <div class="container">
+      <div class="grid">
+          <div class="grid-item uxui"></div>
+          <div class="grid-item uxui"></div>
+          <div class="grid-item uxui"></div>
+          <div class="grid-item uxui"></div>
+          <div class="grid-item uxui"></div>
+          <div class="grid-item uxui"></div>
+          <!-- /FIN GRILLA UX UI GRILLA ISOTOPE / CADA PROYECTO TIENE LA CLASE DE LA "CATEGORIA" QUE LE CORRESPONDE -->
 
-            </div>
-            <div class="col-sm">
-              <button type="button" class="btn">
-                <div class="proyectodos__ux"></div>
-              </button>
-            </div>
-            <div class="col-sm">
-              <button type="button" class="btn">
-                <div class="proyectotres__ux"></div>
-              </button>
-            </div>
-          </div>
-          <br>
-          <div class="class row">
-            <div class="col-sm">
-              <button type="button" class="btn">
-                <div class="proyectocuatro__ux"></div>
-              </button>
-            </div>
-            <div class="col-sm">
-              <button type="button" class="btn">
-                <div class="proyectocinco__ux"></div>
-              </button>
-            </div>
-            <div class="col-sm">
-              <button type="button" class="btn">
-                <div class="proyectoseis__ux"></div>
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
+          <div class="grid-item grafica"></div>
+          <div class="grid-item grafica"></div>
+          <div class="grid-item grafica"></div>
+          <div class="grid-item grafica"></div>
+          <div class="grid-item grafica"></div>
+          <!-- /FIN GRILLA GRAFICA GRILLA ISOTOPE / CADA PROYECTO TIENE LA CLASE DE LA "CATEGORIA" QUE LE CORRESPONDE -->
 
+          <div class="grid-item editorial"></div>
+          <div class="grid-item editorial"></div>
+          <div class="grid-item editorial"></div>
+          <div class="grid-item editorial"></div>
+          <div class="grid-item editorial"></div>
+          <div class="grid-item editorial"></div>
+          <!-- /FIN GRILLA EDITORIAL GRILLA ISOTOPE / CADA PROYECTO TIENE LA CLASE DE LA "CATEGORIA" QUE LE CORRESPONDE -->
 
-
-      <div class="tab-pane fade" id="grafica">
-        Contenido grafica
-        <div class="container">
-          <div class="class row">
-            <div class="col-sm">
-              <button type="button" class="btn">
-                <div class="proyectouno__ux"></div>
-              </button>
-            </div>
-            <div class="col-sm">
-              <button type="button" class="btn">
-                <div class="proyectodos__ux"></div>
-              </button>
-            </div>
-            <div class="col-sm">
-              <button type="button" class="btn">
-                <div class="proyectotres__ux"></div>
-              </button>
-            </div>
-          </div>
-          <br>
-          <div class="class row">
-            <div class="col-sm">
-              <button type="button" class="btn">
-                <div class="proyectocuatro__ux"></div>
-              </button>
-            </div>
-            <div class="col-sm">
-              <button type="button" class="btn">
-                <div class="proyectocinco__ux"></div>
-              </button>
-            </div>
-            <div class="col-sm">
-              <button type="button" class="btn">
-                <div class="proyectoseis__ux"></div>
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-      <div class="tab-pane fade" id="editorial">
-        Contenido editorial
-        <div class="container">
-          <div class="class row">
-            <div class="col-sm">
-              <button type="button" class="btn">
-                <div class="proyectouno__ux"></div>
-              </button>
-            </div>
-            <div class="col-sm">
-              <button type="button" class="btn">
-                <div class="proyectodos__ux"></div>
-              </button>
-            </div>
-            <div class="col-sm">
-              <button type="button" class="btn">
-                <div class="proyectotres__ux"></div>
-              </button>
-            </div>
-          </div>
-          <br>
-          <div class="class row">
-            <div class="col-sm">
-              <button type="button" class="btn">
-                <div class="proyectocuatro__ux"></div>
-              </button>
-            </div>
-            <div class="col-sm">
-              <button type="button" class="btn">
-                <div class="proyectocinco__ux"></div>
-              </button>
-            </div>
-            <div class="col-sm">
-              <button type="button" class="btn">
-                <div class="proyectoseis__ux"></div>
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="tab-pane fade" id="packaging">
-        Contenido packaging
-        <div class="container">
-          <div class="class row">
-            <div class="col-sm">
-              <button type="button" class="btn">
-                <div class="proyectouno__ux"></div>
-              </button>
-            </div>
-            <div class="col-sm">
-              <button type="button" class="btn">
-                <div class="proyectodos__ux"></div>
-              </button>
-            </div>
-            <div class="col-sm">
-              <button type="button" class="btn">
-                <div class="proyectotres__ux"></div>
-              </button>
-            </div>
-          </div>
-          <br>
-          <div class="class row">
-            <div class="col-sm">
-              <button type="button" class="btn">
-                <div class="proyectocuatro__ux"></div>
-              </button>
-            </div>
-            <div class="col-sm">
-              <button type="button" class="btn">
-                <div class="proyectocinco__ux"></div>
-              </button>
-            </div>
-            <div class="col-sm">
-              <button type="button" class="btn">
-                <div class="proyectoseis__ux"></div>
-              </button>
-            </div>
-          </div>
-        </div>
+          <div class="grid-item packaging"></div>
+          <div class="grid-item packaging"></div>
+          <div class="grid-item packaging"></div>
+          <div class="grid-item packaging"></div>
+          <div class="grid-item packaging"></div>
+          <!-- /FIN GRILLA PACKAGING GRILLA ISOTOPE / CADA PROYECTO TIENE LA CLASE DE LA "CATEGORIA" QUE LE CORRESPONDE -->
       </div>
     </div>
+    <!-- / FIN GRILLA ISOTOPE PROYECTOS -->
+
   </div>
   </div>
 </section>
@@ -341,9 +237,11 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.15.0/js/mdb.min.js"></script>
 <script src="https://code.jquery.com/jquery.js"></script>
 
+<!-- JS GRILLA FILTROS -->
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
 
+<!-- JS NINI-->
+<script src="assets/js/main.js"></script>
 
-<script src="assets/js/javascript.js"></script>
 </body>
-
 </html>
