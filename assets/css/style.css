@@ -213,9 +213,10 @@ a {
   height: 100%; }
 
 .nav-tabs {
-  text-align: center; }
+  text-align: center;
+  padding-left: 10%; }
 
-ul {
+li {
   text-align: center; }
 
 .uxui {
