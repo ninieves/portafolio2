@@ -132,6 +132,15 @@ p {
   width: auto;
   display: flex; }
 
+.contacto__iconos {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 40px;
+  padding-top: 10px; }
+
+.cv {
+  padding-top: 10px; }
+
 @media (min-width: 600px) {
   .hero__section {
     background-image: url(../img/imagen_principal.jpg); }
@@ -146,6 +155,8 @@ p {
     padding-top: -50px; }
 
   .contacto__iconos {
+    display: flex;
+    justify-content: space-around;
     padding-left: 40px;
     padding-top: 10px; }
 
@@ -168,6 +179,16 @@ p {
     text-align: center; } }
 .algodemi {
   padding-top: 10%; }
+
+.estudios {
+  display: flex;
+  justify-content: space-around; }
+
+.carrera {
+  text-align: center; }
+
+.titulos__estudios {
+  padding-bottom: 60%; }
 
 li {
   padding: 20px; }
