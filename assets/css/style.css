@@ -169,30 +169,19 @@ p {
 .algodemi {
   padding-top: 10%; }
 
-.nav-tabs {
-  padding: 30px; }
-
 li {
   padding: 20px; }
 
 .nav-tabs {
-  margin-left: -10%;
-  padding-left: 100px;
   display: flex;
   justify-content: center; }
 
-a {
-  text-decoration: none; }
+@media (min-width: 600px) {
+  .proyectos {
+    text-align: center; }
 
-.btn__tabs {
-  width: auto;
-  height: 100%;
-  background-color: black;
-  color: white !important; }
-
-.linea {
-  text-decoration: none; }
-
+  .tabs__proyectos {
+    display: inline-block; } }
 .grid-item {
   width: 25%;
   height: 300px;
@@ -214,7 +203,8 @@ a {
 
 .nav-tabs {
   text-align: center;
-  padding-left: 20%; }
+  display: flex;
+  justify-content: space-around; }
 
 li {
   text-align: center; }
