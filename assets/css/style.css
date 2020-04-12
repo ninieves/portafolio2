@@ -130,7 +130,8 @@ p {
   height: 500px;
   width: 100%;
   width: auto;
-  display: flex; }
+  display: flex;
+  justify-content: space-around; }
 
 .contacto__iconos {
   display: flex;
