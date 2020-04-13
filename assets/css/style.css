@@ -164,7 +164,7 @@ p {
   .cv {
     padding-top: 10px; } }
 .info {
-  background-color: #d4f8e8;
+  background-color: #f7f7f7;
   margin: 0px;
   padding: 20px;
   padding-left: 50px;
@@ -188,8 +188,9 @@ p {
 .carrera {
   text-align: center; }
 
-.titulos__estudios {
-  padding-bottom: 60%; }
+.titulo__estudios {
+  margin-bottom: 50px;
+  margin-top: 120px; }
 
 li {
   padding: 20px; }
