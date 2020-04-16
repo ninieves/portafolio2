@@ -1,208 +1,201 @@
-a{
-	text-decoration: none;
+a {
+  text-decoration: none;
 }
-.info{
-    background-color:$blanco;
+.info {
+  background-color: $blanco;
+  margin: 0px;
+  padding: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center;
+}
+
+@media (min-width: 600px) {
+  .info {
     margin: 0px;
     padding: 20px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
     text-align: center;
- 
-}
-
-@media (min-width: 600px){
-    .info{
-		margin: 0px;
-        padding: 20px;
-        padding-left: 200px;
-        padding-right: 200px;
-        text-align: center;
-     
-}
-
+  }
 }
 //informacion personal
-.algodemi{
-	padding-top: 10%;
+.algodemi {
+  padding-top: 10%;
 }
 //estudios
-.estudios{
-	display: flex;
-	justify-content: space-around;
-	
+.estudios {
+  display: flex;
+  justify-content: space-around;
 }
-.carrera{
-	text-align: center;
+.carrera {
+  text-align: center;
 }
-.titulo__estudios{
-	margin-bottom: 50px;
-	margin-top: 120px;
+.titulo__estudios {
+  margin-bottom: 50px;
+  margin-top: 120px;
 }
-i{
-	color: $verde;
+i {
+  color: $verde;
 }
-
-
-
 
 //tabs de galeria
 
-
-
-li{
-	padding: 20px;
+li {
+  padding: 20px;
 }
-.nav-tabs{
-	display: flex;
-	justify-content: center;
-
+.nav-tabs {
+  display: flex;
+  justify-content: center;
 }
 
-
-@media (min-width: 600px){
-.proyectos{
-	text-align: center;
-
+@media (min-width: 600px) {
+  .proyectos {
+    text-align: center;
+  }
+  .tabs__proyectos {
+    display: inline-block;
+  }
 }
-.tabs__proyectos{
-	display: inline-block;
-}
-}
-
 
 //ESTILOS GRILLA ISOTOPE
 
+.grid-item {
+  width: 25%;
+  height: 300px;
+  background-color: grey;
+}
+.grid-item {
+  width: 100%;
+  height: 300px;
+  background-color: grey;
+}
+.grid-item:after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border: solid 5px #fff;
+  width: 100%;
+  height: 100%;
+}
+.nav-tabs {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
 
-  .grid-item{
-	width: 25%;
-	height: 300px;
-	background-color: grey;
-  }
-  .grid-item{
-	width: 100%;
-	height: 300px;
-	background-color: grey;
-  }
-  .grid-item:after{
-	content:"";
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	border: solid 5px #FFF;
-	width: 100%;
-	height: 100%;
-  }
-  .nav-tabs{
-	  text-align: center;
-	  display: flex;
-	  justify-content: space-around;
-	  
-  }
+li {
+  text-align: center;
+}
 
-  li{
-	  text-align: center;
-	 
-  }
-  
-  .uxui{
-	background-color: blue;
-  }
-  .grafica{
-	background-color: magenta;
-  }
-  .editorial{
-	background-color: yellow;
-  }
-  .packaging{
-	background-color: red;
-  }
+.uxui {
+  background-color: blue;
+}
+.grafica {
+  background-color: magenta;
+}
+.editorial {
+  background-color: yellow;
+}
+.packaging {
+  background-color: red;
+}
 
-
-  
-  @media (min-width: 600px){
-	.grid-item{
-	width: 25%;
-	height: 300px;
-	background-color: grey;
+@media (min-width: 600px) {
+  .grid-item {
+    width: 25%;
+    height: 300px;
+    background-color: grey;
   }
-  .grid-item{
-	width: 25%;
-	height: 300px;
-	background-color: grey;
+  .grid-item {
+    width: 25%;
+    height: 300px;
+    background-color: grey;
   }
-  .grid-item:after{
-	content:"";
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	border: solid 5px #FFF;
-	width: 100%;
-	height: 100%;
+  .grid-item:after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border: solid 5px #fff;
+    width: 100%;
+    height: 100%;
   }
-  .uxui{
-	background-color: blue;
+  .uxui {
+    background-color: blue;
   }
-  .grafica{
-	background-color: magenta;
+  .grafica {
+    background-color: magenta;
   }
-  .editorial{
-	background-color: yellow;
+  .editorial {
+    background-color: yellow;
   }
-  .packaging{
-	background-color: red;
+  .packaging {
+    background-color: red;
   }
-  }
-
+}
 
 //hablemos correo
-.fondo__hablemos{
-	width: 100vw;
-	height: 300px;
-	background-color: rgb(123, 86, 134);
-
+.fondo__hablemos {
+  width: 100vw;
+  height: 300px;
+  background-color: rgb(123, 86, 134);
 }
-.contacto{
-	text-align: center;
-	align-items: center;
-	padding-top: 100px;
+.contacto {
+  text-align: center;
+  align-items: center;
+  padding-top: 100px;
 }
 //pagina interior
-.fijo{
-	margin-top: 15%;
-	background-color: $verde;
-	width: 100vw;
-	height: 100%;
-	color: $blanco;
+/*.fijo {
+  margin-top: 35%;
+  background-color: $verde;
+  width: 100vw;
+  height: 100%;
+  color: $blanco;
+}
+@media (min-width: 600px) {
+  .fijo {
+    margin-top: 15%;
+    background-color: $verde;
+    width: 100vw;
+    height: 100%;
+    color: $blanco;
+  }
+  .mas__proyectos {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
 
+.info__imagenes {
+  margin-top: 15%;
+  background-color: $gris;
+  width: 100vw;
+  height: 100vh;
+}
+.mas__proyectos {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+.otro__proyecto {
+  height: 0px;
+  background-color: $gris;
+  margin: 10px;
+  text-align: center;
+}*/
 
+.bajada__texto{
+text-align: center;
 }
-.info__imagenes{
-	margin-top: 15%;
+.imagen__proyecto{
+	width: 100px;
+	height: auto;
+	background-size: cover;
+	background-repeat: no-repeat;
 
-	background-color: $gris;
-	width: 100vw;
-	height: 100vh;
-
-}
-.mas__proyectos{
-	display: flex;
-	margin-top: 150px;
-	
-}
-.otro__proyecto{
-	height: 120px;
-	width: 120px;
-	background-color: $gris;
-	justify-content: space-around;
-	margin: 10px;
-	text-align: center;
-}
-.tabs__interior{
-	text-align: right !important;
-	display: flex;
-	justify-content: space-around;
-}
-li{
-	text-decoration: none;
 }
