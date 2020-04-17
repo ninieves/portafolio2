@@ -60,6 +60,8 @@ h4{
     font-family: $fuente2;
     font-weight: 300;
     font-size: $xx-l;
+    padding: 0;
+    margin: 0;
 }
 h5{
     color: $black;
@@ -77,5 +79,7 @@ p{
     font-family: $fuente2;
     color: $black;
     font-size: $s;
-    line-height: 30px;
+    padding: 0;
+    margin: 0;
+    
 }

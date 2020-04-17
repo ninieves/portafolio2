@@ -20,14 +20,14 @@ h2 {
 h3 {
   color: 900;
   font-family: "Ledger", "Open Sans", sans-serif;
-  font-size: 12px;
+  font-size: 8px;
   padding: 0;
   margin: 0; }
 
 h6 {
   color: 900;
   font-family: "Ledger", "Open Sans", sans-serif;
-  font-size: 15px; }
+  font-size: 13px; }
 
 @media (min-width: 600px) {
   h1 {
@@ -52,7 +52,9 @@ h4 {
   color: 900;
   font-family: "Ledger", "Open Sans", sans-serif;
   font-weight: 300;
-  font-size: 50px; }
+  font-size: 50px;
+  padding: 0;
+  margin: 0; }
 
 h5 {
   color: 900;
@@ -62,13 +64,14 @@ h5 {
 h6 {
   color: 900;
   font-family: "Ledger", "Open Sans", sans-serif;
-  font-size: 15px; }
+  font-size: 13px; }
 
 p {
   font-family: "Ledger", "Open Sans", sans-serif;
   color: 900;
-  font-size: 15px;
-  line-height: 30px; }
+  font-size: 13px;
+  padding: 0;
+  margin: 0; }
 
 .navbar-brand {
   width: 80px;
@@ -163,6 +166,34 @@ p {
 
   .cv {
     padding-top: 30px; } }
+#section02 a {
+  padding-top: 60px; }
+
+#section02 a span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 46px;
+  height: 46px;
+  margin-left: -23px;
+  border: 1px solid #fff;
+  border-radius: 100%;
+  box-sizing: border-box; }
+
+#section02 a span::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  content: '';
+  width: 16px;
+  height: 16px;
+  margin: -12px 0 0 -8px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  box-sizing: border-box; }
+
 a {
   text-decoration: none; }
 
@@ -183,10 +214,6 @@ a {
     text-align: center; } }
 .algodemi {
   padding-top: 10%; }
-
-.estudios {
-  display: flex;
-  justify-content: space-around; }
 
 .carrera {
   text-align: center; }
@@ -234,9 +261,6 @@ li {
   text-align: center;
   display: flex;
   justify-content: space-around; }
-
-li {
-  text-align: center; }
 
 .uxui {
   background-color: blue; }
@@ -291,54 +315,77 @@ li {
   align-items: center;
   padding-top: 100px; }
 
-/*.fijo {
-  margin-top: 35%;
-  background-color: $verde;
-  width: 100vw;
-  height: 100%;
-  color: $blanco;
-}
-@media (min-width: 600px) {
-  .fijo {
-    margin-top: 15%;
-    background-color: $verde;
-    width: 100vw;
-    height: 100%;
-    color: $blanco;
-  }
-  .mas__proyectos {
-    display: flex;
-    justify-content: space-around;
-    margin-left: 40px;
-    margin-right: 40px;
-  }
-}
-
-.info__imagenes {
-  margin-top: 15%;
-  background-color: $gris;
-  width: 100vw;
-  height: 100vh;
-}
-.mas__proyectos {
-  display: flex;
-  justify-content: space-around;
-  margin: 20px;
-}
-.otro__proyecto {
-  height: 0px;
-  background-color: $gris;
-  margin: 10px;
-  text-align: center;
-}*/
 .bajada__texto {
   text-align: center; }
 
 .imagen__proyecto {
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: auto;
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  padding-top: 0; }
+
+.informacion {
+  padding-top: 120px;
+  padding-bottom: 200px; }
+
+.texto__descriptivo {
+  line-height: 2em;
+  font-weight: 300;
+  font-size: 13px; }
+
+.subtitulo {
+  font-weight: bold;
+  font-size: 16px;
+  padding-top: 10px; }
+
+.titulos__metodos {
+  padding-top: 12%;
+  padding-bottom: 2%;
+  text-align: center;
+  font-weight: 300;
+  font-size: 26px; }
+
+.lista {
+  justify-content: !important left; }
+
+li {
+  padding-left: 10px;
+  justify-content: !important left;
+  padding-bottom: 2px;
+  padding-top: 2px; }
+
+ul {
+  padding: 0;
+  text-align: left;
+  padding-left: 50px; }
+
+.texto__informativo {
+  text-align: center;
+  padding-bottom: 2%;
+  line-height: 2em;
+  padding-left: 4%;
+  padding-right: 4%; }
+
+.otros {
+  overflow: hidden;
+  justify-content: center; }
+
+.masproyecto {
+  width: 100px;
+  height: 100px;
+  margin: 0;
+  padding: 0;
+  padding-top: 0;
+  float: left; }
+
+.texto__prueba {
+  display: flex; }
+
+.negrita {
+  font-weight: 700 !important; }
 
 .footer {
   text-align: center;

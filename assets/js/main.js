@@ -25,12 +25,11 @@ $(document).on('click.nav','.navbar-collapse.in',function(e) {
 
 
 
-
-$(".navbar-nav li a").click(function(event) { if (!$(this).parent().hasClass('dropdown')) $(".navbar-collapse").collapse('hide'); }); 
-
-$(".navbar-toggle").click(function(event) { $(".navbar-collapse").toggle('in'); }); 
-
-angular .module('yourAppModule') .directive('btnAutoCollapse', directive); function directive() { var dir = { restrict: 'A', scope: {}, link: link }; return dir; function link(scope, element, attrs) { element.on('click', function(event) { $(".navbar-collapse.in").collapse('hide'); }); } } 
-
-jQuery('document').ready(function() { $(".navbar-header button").click(function(event) { if ($(".navbar-collapse").hasClass('in')) { $(".navbar-collapse").slideUp(); } });}) 
+//boton bajar
+$(function() {
+  $('a[href*=#]').on('click', function(e) {
+    e.preventDefault();
+    $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
+  });
+});
 
