@@ -213,18 +213,19 @@ p {
 
 .underline-hover-btn {
   display: inline-block;
-  padding: 1em 0;
+  padding: 1em 3em 1em 0em;
   border-radius: 0;
-  color: #b2876f;
+  color: #2fa88a;
   margin-top: 2rem;
   font-weight: bold;
   font-size: 0.678rem;
   letter-spacing: 2px;
   text-transform: uppercase;
   text-decoration: none;
-  position: relative; }
+  position: relative;
+  float: left; }
   .underline-hover-btn:hover {
-    color: #b2876f; }
+    color: #2fa88a; }
     .underline-hover-btn:hover:before {
       transform: none;
       opacity: 1;
@@ -236,7 +237,7 @@ p {
     height: 2px;
     left: 0;
     bottom: -0px;
-    background: #d6beb1;
+    background: #68d5ba;
     transform: translateY(6px);
     opacity: 0;
     transition: 1.8s cubic-bezier(0.2, 1, 0.3, 1);
