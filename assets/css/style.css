@@ -124,7 +124,7 @@ p {
 
 .texto__inicio {
   position: absolute;
-  top: 300px;
+  top: 200px;
   left: 10px;
   margin: 0;
   padding: 0; }
@@ -432,9 +432,6 @@ ul {
 
 .texto__prueba {
   display: flex; }
-
-.negrita {
-  font-weight: 700 !important; }
 
 .footer {
   text-align: center;
