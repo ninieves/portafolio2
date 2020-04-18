@@ -124,14 +124,14 @@ p {
 
 .texto__inicio {
   position: absolute;
-  top: 220px;
+  top: 250px;
   left: 10px;
   margin: 0;
   padding: 0; }
 
 .iconos {
   justify-content: center;
-  top: -40px;
+  top: -50px;
   margin: 0;
   padding: 0; }
 
