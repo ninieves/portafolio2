@@ -11,30 +11,28 @@
 }
 .texto__inicio{
 position: absolute;
-top: 200px;
+top: 150px;
 left: 10px;    
 margin: 0;     
 padding: 0; 
 }
 
-
 .iconos{
-    height: 500px;
-    width: 100%;
-    width: auto;
-    display: flex;
-    justify-content: space-around;
-
+    justify-content: left;
+    top: -120px;
+    margin: 0;
+    padding: 0;
 }
-.contacto__iconos{
-    display: flex;
-    justify-content: space-around;
+.contacto{
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+.margen{
     padding-left: 40px;
-    padding-top: 10px;
 }
-.cv{
-    padding-top: 10px;
-}
+
+
 
 
 
@@ -46,23 +44,25 @@ padding: 0;
     .texto__inicio{
         position: absolute;
         width: auto;
-        top: 60px;
+        top: 30px;
         left: 80px;
         
     }
     .iconos{
-        padding-top: -50px;
-        
+        justify-content: left;
+        top: -120px;
+        margin: 0;
+        padding: 0;
     }
-    .contacto__iconos{
-        display: flex;
-        justify-content: space-around;
+    .contacto{
+        float: left;
+        padding: 0;
+        margin: 0;
+    }
+    .margen{
         padding-left: 40px;
-        padding-top: 30px;
     }
-    .cv{
-        padding-top: 30px;
-    }
+
         
     }
    
@@ -122,17 +122,16 @@ padding: 0;
     
  .underline-hover-btn{
 	display: inline-block;
-  	padding: 1em 3em 1em 0em;
+  	padding: 1em 0em;
   	border-radius: 0;
 	color: $verde;
   	margin-top:2rem;
   	font-weight: bold;
-  	font-size: 0.678rem;
+  	font-size: $s;
   	letter-spacing: 2px;
   	text-transform: uppercase;
   	text-decoration: none;
     position: relative;
-    float: left;
     &:hover{
         color: $verde;
         &:before{
