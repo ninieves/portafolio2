@@ -211,6 +211,37 @@ p {
 .demo a:hover {
   opacity: .5; }
 
+.underline-hover-btn {
+  display: inline-block;
+  padding: 1em 0;
+  border-radius: 0;
+  color: #b2876f;
+  margin-top: 2rem;
+  font-weight: bold;
+  font-size: 0.678rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  position: relative; }
+  .underline-hover-btn:hover {
+    color: #b2876f; }
+    .underline-hover-btn:hover:before {
+      transform: none;
+      opacity: 1;
+      transition-duration: .4s; }
+  .underline-hover-btn:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    left: 0;
+    bottom: -0px;
+    background: #d6beb1;
+    transform: translateY(6px);
+    opacity: 0;
+    transition: 1.8s cubic-bezier(0.2, 1, 0.3, 1);
+    pointer-events: none; }
+
 a {
   text-decoration: none; }
 
