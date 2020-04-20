@@ -530,7 +530,7 @@ ul {
 
   #section03 a span::after {
     position: absolute;
-    top: 50%;
+    top: 70%;
     left: 50%;
     content: '';
     width: 16px;
@@ -539,7 +539,7 @@ ul {
     border-left: 4px solid #2fa88a;
     border-bottom: 4px solid #2fa88a;
     -webkit-transform: rotate(-45deg);
-    transform: rotate(-45deg);
+    transform: rotate(132deg);
     box-sizing: border-box; }
 
   .demo__03 a {
