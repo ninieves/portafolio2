@@ -140,7 +140,7 @@ p {
   padding: 0;
   margin: 0; }
 
-.margen {
+.espacio {
   padding-left: 40px; }
 
 @media (min-width: 576px) {
@@ -235,7 +235,7 @@ p {
 
   .iconos {
     justify-content: left;
-    top: -120px;
+    top: -10px;
     margin: 0;
     padding: 0; }
 
@@ -244,8 +244,8 @@ p {
     padding: 0;
     margin: 0; }
 
-  .margen {
-    padding-left: 0px; }
+  .espacio {
+    padding-left: 40px; }
 
   #section02 a {
     padding-top: 60px; }
