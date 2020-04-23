@@ -17,12 +17,13 @@ for(i = 0; i < gridFilters.length;i++) {
 }
 
 //navbar
-$(document).on('click.nav','.navbar-collapse.in',function(e) {
-    if( $(e.target).is('a') ) {
-        $(this).removeClass('in').addClass('collapse');
-    }
-});
 
+
+$('.navbar-collapse a').click(function(){
+  $(".navbar-collapse").collapse('hide');
+  $(".menu__").collapse('hide');
+  
+});
 
 
 //boton bajar
