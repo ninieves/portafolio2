@@ -44,7 +44,7 @@ i {
 //tabs de galeria
 
 li {
-  padding: 20px;
+  padding: 0px;
 }
 .nav-tabs {
   display: flex;
@@ -61,6 +61,10 @@ li {
 }
 
 //ESTILOS GRILLA ISOTOPE
+.grid-btn{
+  margin: 0;
+  justify-content: center;
+}
 
 .grid-item {
   width: 25%;
