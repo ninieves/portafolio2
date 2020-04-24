@@ -16,12 +16,6 @@ for(i = 0; i < gridFilters.length;i++) {
 	});
 }
 
-//navbar
-
-
-
-  
-});
 
 
 //boton bajar

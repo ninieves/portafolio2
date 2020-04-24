@@ -1,6 +1,7 @@
 /*colores*/
 /*tipografias raleway open sans*/
 @import url("https://fonts.googleapis.com/css?family=Condiment|Ledger");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
 body {
   padding: 0;
   margin: 0; }
@@ -105,6 +106,34 @@ p {
 
 .nav {
   margin: 0px; }
+
+.menu__ {
+  font-family: "Lato", sans-serif;
+  color: #ffffff;
+  display: inline-block;
+  padding: 1em 0em;
+  border-radius: 0;
+  margin-top: 2rem;
+  font-size: 13px;
+  letter-spacing: 2px; }
+  .menu__:hover {
+    color: #ffffff; }
+    .menu__:hover:before {
+      transform: none;
+      opacity: 1;
+      transition-duration: 0.4s; }
+  .menu__:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    left: 0;
+    bottom: -0px;
+    background: #68d5ba;
+    transform: translateY(6px);
+    opacity: 0;
+    transition: 1.8s cubic-bezier(0.2, 1, 0.3, 1);
+    pointer-events: none; }
 
 @keyframes fondo__transparente {
   from {
