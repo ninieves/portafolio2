@@ -19,9 +19,7 @@ for(i = 0; i < gridFilters.length;i++) {
 //navbar
 
 
-$('.navbar-collapse a').click(function(){
-  $(".navbar-collapse").collapse('hide');
-  $(".menu__").collapse('hide');
+
   
 });
 
