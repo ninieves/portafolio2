@@ -21,7 +21,7 @@ a {
 }
 //informacion personal
 .algodemi {
-  padding-top: 10%;
+  padding-top: 20%;
 }
 .texto__base{
   font-family: $fuente__base;
@@ -42,7 +42,9 @@ i {
 }
 
 //tabs de galeria
-
+#proyectos{
+  padding-top: 15%;
+}
 li {
   padding: 0px;
 }
@@ -226,7 +228,7 @@ ul{
 }
 //boton subir
 #section03 a {
-  margin-bottom: -780%;
+  margin-bottom: -810%;
   margin-left: 70%;
 }
 #section03 a span {
@@ -275,7 +277,7 @@ ul{
 //boton subir
 @media (min-width: 600px){
   #section03 a {
-    margin-bottom: -140%;
+    margin-bottom: -180%;
     margin-left: 70%;
   }
   #section03 a span {
