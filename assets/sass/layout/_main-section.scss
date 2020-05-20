@@ -108,12 +108,12 @@ li {
 
 @media (min-width: 600px) {
   .grid-item {
-    width: 25%;
+    width: 23%;
     height: 300px;
     background-color: grey;
   }
   .grid-item {
-    width: 25%;
+    width: 23%;
     height: 300px;
     background-color: grey;
   }
@@ -127,7 +127,29 @@ li {
     height: 100%;
   }
   .uxui {
-    background-color: blue;
+    position: relative;
+    background-image: url(../img/antartica__nueva.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+  }
+  .texto__proyecto{
+position: absolute;
+width: 100%;
+height: 50%;
+bottom: -100%;
+left: 0;
+
+
+  }
+.texto__proyecto:hover{
+
+  bottom: 0;
+
+}
+
+  .btn{
+    
   }
   .grafica {
     background-color: magenta;
