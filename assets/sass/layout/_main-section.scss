@@ -10,7 +10,7 @@ a {
   text-align: center;
 }
 
-/* FOTOS DE LOS PROYECTOS */
+/* FOTOS DE LOS PROYECTOS UX UI */
 #proyecto-01{
   background-image: url('../img/antartica__nueva.jpg');
 }
@@ -21,6 +21,52 @@ a {
   background-image: url('images/...');
 }
 #proyecto-04{
+  background-image: url('images/...');
+}
+
+
+
+/* FOTOS DE LOS PROYECTOS EDITORIAL */
+#proyecto-05{
+  background-image: url('../img/antartica__nueva.jpg');
+}
+#proyecto-06{
+  background-image: url('images/...');
+}
+#proyecto-07{
+  background-image: url('images/...');
+}
+#proyecto-08{
+  background-image: url('images/...');
+}
+
+
+/* FOTOS DE LOS PROYECTOS GRAFICA PÀCKAGING */
+#proyecto-09{
+  background-image: url('../img/antartica__nueva.jpg');
+}
+#proyecto-10{
+  background-image: url('images/...');
+}
+#proyecto-11{
+  background-image: url('images/...');
+}
+#proyecto-12{
+  background-image: url('images/...');
+}
+
+
+/* FOTOS DE LOS PROYECTOS WEB */
+#proyecto-13{
+  background-image: url('../img/antartica__nueva.jpg');
+}
+#proyecto-14{
+  background-image: url('images/...');
+}
+#proyecto-15{
+  background-image: url('images/...');
+}
+#proyecto-16{
   background-image: url('images/...');
 }
 
@@ -37,7 +83,7 @@ a {
 }
 //informacion personal
 .algodemi {
-  padding-top: 20%;
+  padding-top: 10%;
 }
 .texto__base{
   font-family: $fuente__base;
@@ -59,10 +105,10 @@ i {
 
 //tabs de galeria
 #proyectos{
-  padding-top: 20%;
+  padding-top: 10%;
 }
 li {
-  padding: 0px;
+  padding: 10px;
 }
 .nav-tabs {
   display: flex;
@@ -213,7 +259,7 @@ text-align: center;
 	justify-content: !important left;
 }
 li{
-	padding-left: 10px;
+	padding-left: 0px;
 	justify-content: !important left;
 	padding-bottom: 2px;
 	padding-top: 2px;
@@ -359,6 +405,6 @@ ul{
     max-width: 100%;
   }
   .demo a{
-    left: 3%;
+    left: 10%;
   }
 }
