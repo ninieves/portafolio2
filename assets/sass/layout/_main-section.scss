@@ -10,6 +10,22 @@ a {
   text-align: center;
 }
 
+/* FOTOS DE LOS PROYECTOS */
+#proyecto-01{
+  background-image: url('../img/antartica__nueva.jpg');
+}
+#proyecto-02{
+  background-image: url('images/...');
+}
+#proyecto-03{
+  background-image: url('images/...');
+}
+#proyecto-04{
+  background-image: url('images/...');
+}
+
+
+/* PANTALLAS DESDE 600PX */
 @media (min-width: 600px) {
   .info {
     margin: 0px;
@@ -69,14 +85,10 @@ li {
 }
 
 .grid-item {
-  width: 25%;
-  height: 300px;
-  background-color: grey;
-}
-.grid-item {
   width: 100%;
-  height: 300px;
+  height: 250px;
   background-color: grey;
+  position: relative;
 }
 .grid-item:after {
   content: "";
@@ -93,28 +105,48 @@ li {
   justify-content: space-around;
 }
 
-.uxui {
-  background-color: blue;
+.grid-item{
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 0px;
 }
-.grafica {
-  background-color: magenta;
+.texto__proyecto{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  display: block;
+  z-index: 100;
 }
-.editorial {
-  background-color: yellow;
+.texto__proyecto:before{
+  content:"";
+  height: 100%;
+  width: 100%;
+  display: block;
+  z-index: 101;
+  background-color: #30a78a;
 }
-.packaging {
-  background-color: red;
+.texto__proyecto:hover{
+  opacity: 1;
+}
+.texto__proyecto-contenedor{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  z-index: 102;
+  position: absolute;
+  top: 0px;
+  left: 0px;
 }
 
 @media (min-width: 600px) {
   .grid-item {
-    width: 23%;
-    height: 300px;
-    background-color: grey;
-  }
-  .grid-item {
-    width: 23%;
-    height: 300px;
+    width: 48%;
+    height: 400px;
     background-color: grey;
   }
   .grid-item:after {
@@ -125,40 +157,6 @@ li {
     border: solid 5px #fff;
     width: 100%;
     height: 100%;
-  }
-  .uxui {
-    position: relative;
-    background-image: url(../img/antartica__nueva.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    
-  }
-  .texto__proyecto{
-position: absolute;
-width: 100%;
-height: 50%;
-bottom: -100%;
-left: 0;
-
-
-  }
-.texto__proyecto:hover{
-
-  bottom: 0;
-
-}
-
-  .btn{
-    
-  }
-  .grafica {
-    background-color: magenta;
-  }
-  .editorial {
-    background-color: yellow;
-  }
-  .packaging {
-    background-color: red;
   }
 }
 
@@ -297,6 +295,7 @@ ul{
 }
 
 //boton subir
+/* PANTALLAS TABLET HACIA ARRIBA */ 
 @media (min-width: 600px){
   #section03 a {
     margin-bottom: -180%;
@@ -347,3 +346,19 @@ ul{
 
 }
 
+/* PANTALLAS HASTA TABLET*/
+@media (max-width: 768px) {
+  .grid-item {
+    width: 100% !important;
+  }
+}
+
+/* PANTALLAS GRANDES */
+@media (min-width: 1200px) {
+  .container{
+    max-width: 100%;
+  }
+  .demo a{
+    left: 3%;
+  }
+}
