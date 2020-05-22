@@ -44,10 +44,10 @@ h2 {
   font-weight: 300; }
 
 h3 {
-  color: 900;
+  color: #2fa88a;
   font-family: "Ledger", "Open Sans", sans-serif;
-  font-size: 26px;
-  padding: 0;
+  font-size: 45px;
+  padding: 1%;
   margin: 0; }
 
 h4 {
@@ -704,10 +704,19 @@ li {
     text-align: left; } }
 /*herramienta y resumen del proyecto*/
 .resumen {
-  margin-left: 5%;
-  margin-top: 15%; }
+  text-align: justify;
+  margin-left: 3%;
+  margin-top: 10%; }
 
+@media (min-width: 600px) {
+  .resumen {
+    margin-left: 20%;
+    margin-top: 10%; } }
 /*imagen resumen del proyecto*/
+.subtitulos {
+  color: #2fa88a;
+  padding-top: 2%; }
+
 .imagen__proyecto {
   width: 80%;
   height: auto;
@@ -718,9 +727,12 @@ li {
   padding-top: 0; }
 
 .problema__actual {
-  text-align: center;
-  margin: 5%; }
+  text-align: center; }
 
+@media (min-width: 600px) {
+  .problema__actual {
+    text-align: center;
+    margin: 5%; } }
 .card-title {
   text-align: center; }
 
@@ -735,9 +747,12 @@ li {
   margin: 5%; }
 
 .texto__descriptivo {
-  margin-left: 60%;
   margin-top: 40%; }
 
+@media (min-width: 600px) {
+  .texto__descriptivo {
+    margin-left: 60%;
+    margin-top: 40%; } }
 .foto__final {
   text-align: center; }
 

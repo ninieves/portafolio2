@@ -396,12 +396,22 @@ li {
 }
 /*herramienta y resumen del proyecto*/
 .resumen{
-margin-left: 5%;
-margin-top: 15%;
-
-
+  text-align: justify;
+  margin-left: 3%;
+margin-top: 10%;
+}
+@media (min-width: 600px){
+  .resumen{
+    margin-left: 20%;
+    margin-top: 10%;
+    }
 }
 /*imagen resumen del proyecto*/
+.subtitulos{
+  color: $verde;
+  padding-top: 2%;
+
+}
 .imagen__proyecto{
   width: 80%;
   height: auto;
@@ -415,9 +425,13 @@ margin-top: 15%;
   
 .problema__actual{
   text-align: center;
-  margin: 5%;
   
-
+}
+@media (min-width: 600px){
+  .problema__actual{
+    text-align: center;
+    margin: 5%;
+  }
 }
 .card-title {
   text-align: center;
@@ -437,10 +451,18 @@ margin-top: 15%;
 
 }
 .texto__descriptivo{
-  margin-left: 60%;
+  
   margin-top: 40%;
 
 }
+@media (min-width: 600px){
+  .texto__descriptivo{
+    margin-left: 60%;
+    margin-top: 40%;
+  
+  } 
+}
+
 .foto__final{
   text-align: center;
 
