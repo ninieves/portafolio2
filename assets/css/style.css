@@ -718,7 +718,7 @@ li {
   padding-top: 2%; }
 
 .imagen__proyecto {
-  width: 80%;
+  width: 100%;
   height: auto;
   background-size: cover;
   background-repeat: no-repeat;
@@ -726,6 +726,15 @@ li {
   padding: 0;
   padding-top: 0; }
 
+@media (min-width: 600px) {
+  .imagen__proyecto {
+    width: 80%;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 5%;
+    padding: 0;
+    padding-top: 0; } }
 .problema__actual {
   text-align: center; }
 

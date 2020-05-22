@@ -413,7 +413,7 @@ margin-top: 10%;
 
 }
 .imagen__proyecto{
-  width: 80%;
+  width: 100%;
   height: auto;
   background-size: cover;
   background-repeat: no-repeat;
@@ -421,6 +421,18 @@ margin-top: 10%;
   
   padding: 0;
   padding-top: 0;
+}
+@media (min-width: 600px){
+  .imagen__proyecto{
+    width: 80%;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 5%;
+    
+    padding: 0;
+    padding-top: 0;
+  }
 }
   
 .problema__actual{
