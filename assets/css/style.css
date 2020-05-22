@@ -54,14 +54,15 @@ h4 {
   color: 900;
   font-family: "Ledger", "Open Sans", sans-serif;
   font-weight: 300;
-  font-size: 26px;
+  font-size: 16px;
   padding: 0;
   margin: 0; }
 
 h5 {
   color: 900;
   font-family: "Ledger", "Open Sans", sans-serif;
-  font-size: 26px; }
+  font-size: 26px;
+  font-weight: 500; }
 
 h6 {
   color: 900;
@@ -71,8 +72,8 @@ h6 {
 p {
   font-family: "Roboto", sans-serif;
   color: 900;
-  font-size: 16px;
-  padding-top: 5%;
+  font-size: 13px;
+  padding-top: 0%;
   margin: 0; }
 
 .navbar-brand {
@@ -355,9 +356,12 @@ p {
       opacity: 0;
       transition: 1.8s cubic-bezier(0.2, 1, 0.3, 1);
       pointer-events: none; } }
+/*INICIO PAGINA*/
 a {
   text-decoration: none; }
 
+/*INFORMACION PERSONAL DE INICIO*/
+/*TEXTO DE INICIO CON CONTACTOS DE DISEÑO*/
 .info {
   background-color: #ffffff;
   margin: 0px;
@@ -365,58 +369,6 @@ a {
   padding-left: 50px;
   padding-right: 50px;
   text-align: center; }
-
-/* FOTOS DE LOS PROYECTOS UX UI */
-#proyecto-01 {
-  background-image: url("../img/antartica__nueva.jpg"); }
-
-#proyecto-02 {
-  background-image: url("images/..."); }
-
-#proyecto-03 {
-  background-image: url("images/..."); }
-
-#proyecto-04 {
-  background-image: url("images/..."); }
-
-/* FOTOS DE LOS PROYECTOS EDITORIAL */
-#proyecto-05 {
-  background-image: url("../img/antartica__nueva.jpg"); }
-
-#proyecto-06 {
-  background-image: url("images/..."); }
-
-#proyecto-07 {
-  background-image: url("images/..."); }
-
-#proyecto-08 {
-  background-image: url("images/..."); }
-
-/* FOTOS DE LOS PROYECTOS GRAFICA PÀCKAGING */
-#proyecto-09 {
-  background-image: url("../img/antartica__nueva.jpg"); }
-
-#proyecto-10 {
-  background-image: url("images/..."); }
-
-#proyecto-11 {
-  background-image: url("images/..."); }
-
-#proyecto-12 {
-  background-image: url("images/..."); }
-
-/* FOTOS DE LOS PROYECTOS WEB */
-#proyecto-13 {
-  background-image: url("../img/antartica__nueva.jpg"); }
-
-#proyecto-14 {
-  background-image: url("images/..."); }
-
-#proyecto-15 {
-  background-image: url("images/..."); }
-
-#proyecto-16 {
-  background-image: url("images/..."); }
 
 /* PANTALLAS DESDE 600PX */
 @media (min-width: 600px) {
@@ -426,15 +378,18 @@ a {
     padding-left: 200px;
     padding-right: 200px;
     text-align: center; } }
+/*INFORMACION PERSONAL*/
 .algodemi {
   padding-top: 10%; }
 
 .texto__base {
   font-family: "Roboto", sans-serif; }
 
+/*LOGOS DE LAS INSTITUCIONES DONDE HE ESTUDIADO*/
 .carrera {
   text-align: center; }
 
+/*ESTILO DE TITULOS DE LOS ESTDIOS*/
 .titulo__estudios {
   margin-bottom: 50px;
   margin-top: 120px; }
@@ -442,22 +397,29 @@ a {
 i {
   color: #2fa88a; }
 
+/*GALERIA DE PROYECTOS*/
 #proyectos {
   padding-top: 10%; }
 
 li {
-  padding: 10px; }
+  padding: 0px; }
 
 .nav-tabs {
   display: flex;
   justify-content: center; }
 
+/* PANTALLAS DESDE 600PX */
+/*SEPARACION MENU DE LA GALERIA DE PROYECTOS*/
 @media (min-width: 600px) {
+  li {
+    padding: 10px; }
+
   .proyectos {
     text-align: center; }
 
   .tabs__proyectos {
     display: inline-block; } }
+/*ESTILOS GRILLA ISOTOPE- GRILLA DE PROYECTOS*/
 .grid-btn {
   margin: 0;
   justify-content: center; }
@@ -519,6 +481,8 @@ li {
   top: 0px;
   left: 0px; }
 
+/*ESTILOS GRILLA ISOTOPE- GRILLA DE PROYECTOS*/
+/*EN PANTALLAS DESDE 600PX*/
 @media (min-width: 600px) {
   .grid-item {
     width: 48%;
@@ -533,6 +497,71 @@ li {
     border: solid 5px #fff;
     width: 100%;
     height: 100%; } }
+/* PANTALLAS HASTA TABLET*/
+@media (max-width: 768px) {
+  .grid-item {
+    width: 100% !important; } }
+/* PANTALLAS GRANDES */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 100%; }
+
+  .demo a {
+    left: 10%; } }
+/*GALERIA DE PROYECTOS PAGINA PRINCIPAL*/
+/* FOTOS DE LOS PROYECTOS UX UI */
+#proyecto-01 {
+  background-image: url("../img/antartica__nueva.jpg"); }
+
+#proyecto-02 {
+  background-image: url("images/..."); }
+
+#proyecto-03 {
+  background-image: url("images/..."); }
+
+#proyecto-04 {
+  background-image: url("images/..."); }
+
+/* FOTOS DE LOS PROYECTOS EDITORIAL */
+#proyecto-05 {
+  background-image: url("../img/antartica__nueva.jpg"); }
+
+#proyecto-06 {
+  background-image: url("images/..."); }
+
+#proyecto-07 {
+  background-image: url("images/..."); }
+
+#proyecto-08 {
+  background-image: url("images/..."); }
+
+/* FOTOS DE LOS PROYECTOS GRAFICA PÀCKAGING */
+#proyecto-09 {
+  background-image: url("../img/antartica__nueva.jpg"); }
+
+#proyecto-10 {
+  background-image: url("images/..."); }
+
+#proyecto-11 {
+  background-image: url("images/..."); }
+
+#proyecto-12 {
+  background-image: url("images/..."); }
+
+/* FOTOS DE LOS PROYECTOS WEB */
+#proyecto-13 {
+  background-image: url("../img/antartica__nueva.jpg"); }
+
+#proyecto-14 {
+  background-image: url("images/..."); }
+
+#proyecto-15 {
+  background-image: url("images/..."); }
+
+#proyecto-16 {
+  background-image: url("images/..."); }
+
+/*FIN GALERIA PAGINA PRINCIPAL*/
 .fondo__hablemos {
   width: 100vw;
   height: 300px;
@@ -543,75 +572,7 @@ li {
   align-items: center;
   padding-top: 100px; }
 
-.bajada__texto {
-  text-align: center; }
-
-.imagen__proyecto {
-  width: 100%;
-  height: auto;
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin: 0;
-  padding: 0;
-  padding-top: 0; }
-
-.informacion {
-  padding-top: 120px;
-  padding-bottom: 200px; }
-
-.texto__descriptivo {
-  line-height: 2em;
-  font-weight: 300;
-  font-size: 13px; }
-
-.subtitulo {
-  font-weight: bold;
-  font-size: 16px;
-  padding-top: 10px; }
-
-.titulos__metodos {
-  padding-top: 12%;
-  padding-bottom: 2%;
-  text-align: center;
-  font-weight: 300;
-  font-size: 26px; }
-
-.lista {
-  justify-content: !important left; }
-
-li {
-  padding-left: 0px;
-  justify-content: !important left;
-  padding-bottom: 2px;
-  padding-top: 2px; }
-
-ul {
-  padding: 0;
-  text-align: left;
-  padding-left: 50px; }
-
-.texto__informativo {
-  text-align: center;
-  padding-bottom: 2%;
-  line-height: 2em;
-  padding-left: 4%;
-  padding-right: 4%; }
-
-.otros {
-  overflow: hidden;
-  justify-content: center; }
-
-.masproyecto {
-  width: 100px;
-  height: 100px;
-  margin: 0;
-  padding: 0;
-  padding-top: 0;
-  float: left; }
-
-.texto__prueba {
-  display: flex; }
-
+/*BOTON SUBIR EN MOBILE*/
 #section03 a {
   margin-bottom: -700%;
   margin-left: 70%; }
@@ -658,6 +619,8 @@ ul {
 .demo__03 a:hover {
   opacity: .5; }
 
+/*BOTON SUBIR EN MOBILE*/
+/*BOTON SUBIR EN PANTALLAS MEDIANAS HACIA ARRIBA */
 /* PANTALLAS TABLET HACIA ARRIBA */
 @media (min-width: 600px) {
   #section03 a {
@@ -705,17 +668,154 @@ ul {
 
   .demo__03 a:hover {
     opacity: .5; } }
-/* PANTALLAS HASTA TABLET*/
-@media (max-width: 768px) {
-  .grid-item {
-    width: 100% !important; } }
-/* PANTALLAS GRANDES */
-@media (min-width: 1200px) {
-  .container {
-    max-width: 100%; }
+/*FIN BOTON SUBIR EN PANTALLAS MEDIANAS HACIA ARRIBA*/
+/*PAGINA INTERNA NUEVA*/
+.bg__hero__antartica {
+  background-image: url(../img/antartica__nueva.jpg);
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 100vw;
+  position: relative;
+  display: inline-block;
+  text-align: left; }
 
-  .demo a {
-    left: 10%; } }
+.descripcion__inicial {
+  text-align: center;
+  margin-top: 60%; }
+
+/*pantallla medianas*/
+@media (min-width: 600px) {
+  .descripcion__inicial {
+    text-align: justify;
+    margin-top: 20%;
+    margin-left: 10%; }
+
+  .bg__hero__antartica {
+    background-image: url(../img/antartica__nueva.jpg);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 100vw;
+    position: relative;
+    display: inline-block;
+    text-align: left; } }
+/*herramienta y resumen del proyecto*/
+.resumen {
+  margin-left: 5%;
+  margin-top: 15%; }
+
+/*imagen resumen del proyecto*/
+.imagen__proyecto {
+  width: 80%;
+  height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 5%;
+  padding: 0;
+  padding-top: 0; }
+
+.problema__actual {
+  text-align: center;
+  margin: 5%; }
+
+.card-title {
+  text-align: center; }
+
+.card-text {
+  text-align: center; }
+
+.tarjetas__problemas {
+  margin: 5%; }
+
+.iconos__problemas {
+  text-align: center;
+  margin: 5%; }
+
+.texto__descriptivo {
+  margin-left: 60%;
+  margin-top: 40%; }
+
+.foto__final {
+  text-align: center; }
+
+/*
+
+
+.bajada__texto{
+  text-align: center;
+  }
+  .imagen__proyecto{
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    padding-top: 0;
+  
+  }
+  .informacion{
+    padding-top: 120px;
+  }
+  .texto__descriptivo{
+    line-height: 2em;
+    font-weight: $light;
+    font-size: $s;
+  
+  }
+  .subtitulo{
+    font-weight: bold;
+    font-size: $m;
+    padding-top: 10px;
+  }
+  .titulos__metodos{
+    padding-top: 12%;
+    padding-bottom: 2%;
+    text-align: center;
+    font-weight: $light;
+    font-size: $l;
+  }
+  
+  .lista{
+    justify-content: !important left;
+  }
+  li{
+    padding-left: 0px;
+    justify-content: !important left;
+    padding-bottom: 2px;
+    padding-top: 2px;
+  }
+  ul{
+    padding: 0;
+    text-align: left;
+    padding-left: 50px;
+  }
+  .texto__informativo{
+    text-align: center;
+    padding-bottom: 2%;
+    line-height: 2em;
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+  .otros{
+    overflow: hidden;
+    justify-content: center;
+  }
+  .masproyecto{
+    width: 100px;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    padding-top: 0;
+    float: left;
+  
+  }
+  .texto__prueba{
+    display: flex;
+  }*/
 .footer {
   text-align: center;
   color: #ffffff;

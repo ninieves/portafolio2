@@ -59,7 +59,7 @@ h4{
     color: $black;
     font-family: $fuente2;
     font-weight: 300;
-    font-size: $l;
+    font-size: $m;
     padding: 0;
     margin: 0;
 }
@@ -67,6 +67,7 @@ h5{
     color: $black;
     font-family: $fuente2;
     font-size: $l;
+    font-weight: $medium;
     $light: 300;
 }
 h6{
@@ -79,8 +80,8 @@ p{
     font-family: $fuente__base;
     
     color: $black;
-    font-size: $m;
-    padding-top: 5%;
+    font-size: $s;
+    padding-top: 0%;
     margin: 0;
     
 }
