@@ -358,20 +358,21 @@ li {
 /*PAGINA INTERNA NUEVA*/
 
 
-.bg__hero__antartica{
-  background-image: url(../img/antartica__nueva.jpg);
-  background-position: center right;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 300px;
-  width: 100vw;
-  position: relative;
-  display: inline-block;
-  text-align: left;
-}
+
 .descripcion__inicial{
   text-align: center;
   margin-top: 60%;
+
+}
+.imagen__proyecto__principal{
+  margin-top: 30%;
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0;
+  padding-top: 0;
+
 
 }
 /*pantallla medianas*/
@@ -382,31 +383,31 @@ li {
     margin-left: 10%;
   
   }
-  .bg__hero__antartica{
-    background-image: url(../img/antartica__nueva.jpg);
-    background-position: center right;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 400px;
-    width: 100vw;
-    position: relative;
-    display: inline-block;
-    text-align: left;
-  }
+ 
 }
 /*herramienta y resumen del proyecto*/
 .resumen{
   text-align: justify;
   margin-left: 3%;
-margin-top: 10%;
+  margin-top: 30%;
 }
 @media (min-width: 600px){
   .resumen{
     margin-left: 20%;
-    margin-top: 10%;
+    margin-top: 30%;
     }
 }
 /*imagen resumen del proyecto*/
+.titulos__etapas{
+  padding-top: 10%;
+  text-align: center;
+}
+@media (min-width: 600px){
+  .titulos__etapas{
+    padding-top: 0;
+    text-align: center;
+  }
+}
 .subtitulos{
   color: $verde;
   padding-top: 2%;
@@ -417,8 +418,7 @@ margin-top: 10%;
   height: auto;
   background-size: cover;
   background-repeat: no-repeat;
-  margin-top: 5%;
-  
+  margin-top: 2%;
   padding: 0;
   padding-top: 0;
 }
@@ -429,7 +429,6 @@ margin-top: 10%;
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: 5%;
-    
     padding: 0;
     padding-top: 0;
   }
@@ -442,7 +441,7 @@ margin-top: 10%;
 @media (min-width: 600px){
   .problema__actual{
     text-align: center;
-    margin: 5%;
+    margin: 0%;
   }
 }
 .card-title {
@@ -479,80 +478,3 @@ margin-top: 10%;
   text-align: center;
 
 }
-//pagina interna
-/*
-
-
-.bajada__texto{
-  text-align: center;
-  }
-  .imagen__proyecto{
-    width: 100%;
-    height: auto;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: 0;
-    padding: 0;
-    padding-top: 0;
-  
-  }
-  .informacion{
-    padding-top: 120px;
-  }
-  .texto__descriptivo{
-    line-height: 2em;
-    font-weight: $light;
-    font-size: $s;
-  
-  }
-  .subtitulo{
-    font-weight: bold;
-    font-size: $m;
-    padding-top: 10px;
-  }
-  .titulos__metodos{
-    padding-top: 12%;
-    padding-bottom: 2%;
-    text-align: center;
-    font-weight: $light;
-    font-size: $l;
-  }
-  
-  .lista{
-    justify-content: !important left;
-  }
-  li{
-    padding-left: 0px;
-    justify-content: !important left;
-    padding-bottom: 2px;
-    padding-top: 2px;
-  }
-  ul{
-    padding: 0;
-    text-align: left;
-    padding-left: 50px;
-  }
-  .texto__informativo{
-    text-align: center;
-    padding-bottom: 2%;
-    line-height: 2em;
-    padding-left: 4%;
-    padding-right: 4%;
-  }
-  .otros{
-    overflow: hidden;
-    justify-content: center;
-  }
-  .masproyecto{
-    width: 100px;
-    height: 100px;
-    margin: 0;
-    padding: 0;
-    padding-top: 0;
-    float: left;
-  
-  }
-  .texto__prueba{
-    display: flex;
-  }*/
-  //FIN PAGINA INTERNA
