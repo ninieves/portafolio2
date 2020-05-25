@@ -46,7 +46,7 @@ h2 {
 h3 {
   color: #2fa88a;
   font-family: "Ledger", "Open Sans", sans-serif;
-  font-size: 45px;
+  font-size: 32px;
   padding: 1%;
   margin: 0; }
 
@@ -182,7 +182,7 @@ p {
   #section02 {
     display: none; } }
 #section02 a {
-  padding-top: -80px; }
+  padding-top: 80px; }
 
 #section02 a span {
   position: absolute;
@@ -565,7 +565,7 @@ li {
 .fondo__hablemos {
   width: 100vw;
   height: 300px;
-  background-color: #7b5686; }
+  background-color: #8ecdbe; }
 
 .correo {
   text-align: center;
@@ -706,7 +706,7 @@ li {
 
 @media (min-width: 600px) {
   .titulos__etapas {
-    padding-top: 0;
+    padding-top: 5%;
     text-align: center; } }
 .subtitulos {
   color: #2fa88a;
@@ -756,7 +756,8 @@ li {
 @media (min-width: 600px) {
   .texto__descriptivo {
     margin-left: 60%;
-    margin-top: 40%; } }
+    margin-top: 40%;
+    text-align: base; } }
 .foto__final {
   text-align: center; }
 

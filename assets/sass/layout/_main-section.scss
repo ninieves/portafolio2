@@ -240,7 +240,7 @@ li {
 .fondo__hablemos {
   width: 100vw;
   height: 300px;
-  background-color: rgb(123, 86, 134);
+  background-color: rgb(142, 205, 190);
 }
 .correo {
   text-align: center;
@@ -404,8 +404,9 @@ li {
 }
 @media (min-width: 600px){
   .titulos__etapas{
-    padding-top: 0;
+    padding-top: 5%;
     text-align: center;
+
   }
 }
 .subtitulos{
@@ -470,6 +471,7 @@ li {
   .texto__descriptivo{
     margin-left: 60%;
     margin-top: 40%;
+    text-align: base;
   
   } 
 }
