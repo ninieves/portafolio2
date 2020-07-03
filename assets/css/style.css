@@ -358,7 +358,8 @@ p {
       pointer-events: none; } }
 /*INICIO PAGINA*/
 a {
-  text-decoration: none; }
+  text-decoration: none !important;
+  color: #ffffff; }
 
 /*INFORMACION PERSONAL DE INICIO*/
 /*TEXTO DE INICIO CON CONTACTOS DE DISEÑO*/
@@ -775,5 +776,15 @@ li {
   height: 80px;
   background-color: #2fa88a;
   margin: 0; }
+
+/*HEADER PAGINA INTERNA*/
+.hero__section_ux {
+  text-align: right;
+  background-image: url(../img/portada_antartica.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  text-shadow: 2px 3px 2px #707070;
+  padding: 13.125rem 3.125rem; }
 
 /*# sourceMappingURL=style.css.map */
