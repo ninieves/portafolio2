@@ -671,6 +671,15 @@ li {
     opacity: .5; } }
 /*FIN BOTON SUBIR EN PANTALLAS MEDIANAS HACIA ARRIBA*/
 /*PAGINA INTERNA NUEVA*/
+.lista {
+  list-style: none;
+  text-decoration: none; }
+
+.icono {
+  color: #2fa88a;
+  width: 30px;
+  height: auto; }
+
 .descripcion__inicial {
   text-align: center;
   margin-top: 60%; }
@@ -689,17 +698,22 @@ li {
   .descripcion__inicial {
     text-align: justify;
     margin-top: 20%;
-    margin-left: 10%; } }
+    margin-left: 10%;
+    list-style: none; } }
 /*herramienta y resumen del proyecto*/
 .resumen {
   text-align: justify;
   margin-left: 3%;
-  margin-top: 30%; }
+  margin-top: 30%;
+  list-style: none;
+  text-decoration: none; }
 
 @media (min-width: 600px) {
   .resumen {
     margin-left: 20%;
-    margin-top: 30%; } }
+    margin-top: 30%;
+    list-style: none;
+    text-decoration: none; } }
 /*imagen resumen del proyecto*/
 .titulos__etapas {
   padding-top: 10%;
@@ -711,7 +725,8 @@ li {
     text-align: center; } }
 .subtitulos {
   color: #2fa88a;
-  padding-top: 2%; }
+  padding-top: 2%;
+  list-style: none; }
 
 .imagen__proyecto {
   width: 100%;
@@ -778,11 +793,22 @@ li {
   margin: 0; }
 
 /*HEADER PAGINA INTERNA*/
-.hero__section_ux {
+.hero__section_ux_antartica {
   text-align: right;
   background-image: url(../img/portada_antartica.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  width: auto;
+  color: #ffffff;
+  text-shadow: 2px 3px 2px #707070;
+  padding: 13.125rem 3.125rem; }
+
+.hero__section_ux_corte_ingles {
+  text-align: right;
+  background-image: url(../img/portada_corte_ingles);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: auto;
   color: #ffffff;
   text-shadow: 2px 3px 2px #707070;
   padding: 13.125rem 3.125rem; }

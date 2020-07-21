@@ -358,6 +358,15 @@ li {
 
 
 /*PAGINA INTERNA NUEVA*/
+.lista{
+  list-style: none;
+  text-decoration: none;
+}
+.icono{
+  color: $verde;
+  width: 30px;
+  height: auto;
+}
 
 
 
@@ -383,6 +392,7 @@ li {
     text-align: justify;
     margin-top: 20%;
     margin-left: 10%;
+    list-style: none;
   
   }
  
@@ -392,11 +402,15 @@ li {
   text-align: justify;
   margin-left: 3%;
   margin-top: 30%;
+  list-style: none;
+  text-decoration: none;
 }
 @media (min-width: 600px){
   .resumen{
     margin-left: 20%;
     margin-top: 30%;
+    list-style: none;
+    text-decoration: none;
     }
 }
 /*imagen resumen del proyecto*/
@@ -414,6 +428,7 @@ li {
 .subtitulos{
   color: $verde;
   padding-top: 2%;
+  list-style: none;
 
 }
 .imagen__proyecto{

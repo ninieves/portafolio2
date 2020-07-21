@@ -1,9 +1,22 @@
 /*HEADER PAGINA INTERNA*/
-.hero__section_ux {
+.hero__section_ux_antartica {
     text-align: right;
      background-image: url(../img/portada_antartica.jpg);
      background-repeat: no-repeat;
      background-size: cover;
+     width: auto;
+     color: #ffffff;
+     text-shadow: 2px 3px 2px #707070;
+     padding: 13.125rem 3.125rem;
+     
+
+}
+.hero__section_ux_corte_ingles {
+    text-align: right;
+     background-image: url(../img/portada_corte_ingles);
+     background-repeat: no-repeat;
+     background-size: cover;
+     width: auto;
      color: #ffffff;
      text-shadow: 2px 3px 2px #707070;
      padding: 13.125rem 3.125rem;
