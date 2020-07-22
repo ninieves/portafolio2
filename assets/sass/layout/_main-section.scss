@@ -1,5 +1,7 @@
 /*INICIO PAGINA*/
-
+.verde{
+  background-color: $verde;
+}
 a {
   text-decoration: none!important;
   color:$blanco
@@ -358,6 +360,20 @@ li {
 
 
 /*PAGINA INTERNA NUEVA*/
+.letra_verde{
+  color: $verde;
+
+}
+@media (min-width: 600px){
+  .card-columns{
+    column-gap: 10%;
+  
+  }
+  .card{
+    width: 40%;
+}
+
+}
 .lista{
   list-style: none;
   text-decoration: none;
@@ -417,6 +433,7 @@ li {
 /*imagen resumen del proyecto*/
 .titulos__etapas{
   padding-top: 10%;
+  padding-bottom: 2%;
   text-align: center;
 }
 .titulos__evaluacion{
@@ -428,10 +445,15 @@ li {
   margin-top: 5%;
 
 }
+.viaje{
+  margin-left: 20%;
+  margin-right: 20%;
+}
 
 @media (min-width: 600px){
   .titulos__etapas{
     padding-top: 5%;
+    padding-bottom: 2%;
     text-align: center;
 
   }
@@ -447,7 +469,13 @@ li {
 }
 .subtitulos{
   color: $verde;
-  padding-top: 2%;
+  padding-top: 3%;
+  list-style: none;
+
+}
+.subtitulos_{
+  color: $verde;
+  padding-top: 0%;
   list-style: none;
 
 }
@@ -514,7 +542,7 @@ li {
   .texto__descriptivo{
     margin-left: 60%;
     margin-top: 40%;
-    text-align: base;
+    
   
   } 
   .texto__caso{
@@ -525,5 +553,7 @@ li {
 
 .foto__final{
   text-align: center;
+  width: auto;
 
 }
+
