@@ -360,9 +360,11 @@ p {
 .verde {
   background-color: #2fa88a; }
 
+.blanco_letra {
+  color: #ffffff; }
+
 a {
-  text-decoration: none !important;
-  color: #ffffff !important; }
+  text-decoration: none !important; }
 
 .container {
   padding-left: 1rem;
