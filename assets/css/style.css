@@ -362,7 +362,15 @@ p {
 
 a {
   text-decoration: none !important;
-  color: #ffffff; }
+  color: #ffffff !important; }
+
+.container {
+  padding-left: 1rem;
+  padding-right: 1rem; }
+  @media (min-width: 600px) {
+    .container {
+      padding-left: 7rem;
+      padding-right: 7rem; } }
 
 /*INFORMACION PERSONAL DE INICIO*/
 /*TEXTO DE INICIO CON CONTACTOS DE DISEÑO*/
@@ -518,52 +526,52 @@ li {
   background-image: url("../img/antartica__nueva.jpg"); }
 
 #proyecto-02 {
-  background-image: url("images/viaje_portada.jpg"); }
+  background-image: url("../img/viaje_portada.jpg"); }
 
 #proyecto-03 {
-  background-image: url("images/..."); }
+  background-image: url("../img/..."); }
 
 #proyecto-04 {
-  background-image: url("images/..."); }
+  background-image: url("../img/..."); }
 
 /* FOTOS DE LOS PROYECTOS EDITORIAL */
 #proyecto-05 {
   background-image: url("../img/antartica__nueva.jpg"); }
 
 #proyecto-06 {
-  background-image: url("images/..."); }
+  background-image: url("../img/..."); }
 
 #proyecto-07 {
-  background-image: url("images/..."); }
+  background-image: url("../img/..."); }
 
 #proyecto-08 {
-  background-image: url("images/..."); }
+  background-image: url("../img/..."); }
 
 /* FOTOS DE LOS PROYECTOS GRAFICA PÀCKAGING */
 #proyecto-09 {
   background-image: url("../img/antartica__nueva.jpg"); }
 
 #proyecto-10 {
-  background-image: url("images/..."); }
+  background-image: url("../img/..."); }
 
 #proyecto-11 {
-  background-image: url("images/..."); }
+  background-image: url("../img/..."); }
 
 #proyecto-12 {
-  background-image: url("images/..."); }
+  background-image: url("../img/..."); }
 
 /* FOTOS DE LOS PROYECTOS WEB */
 #proyecto-13 {
   background-image: url("../img/antartica__nueva.jpg"); }
 
 #proyecto-14 {
-  background-image: url("images/..."); }
+  background-image: url("../img/..."); }
 
 #proyecto-15 {
-  background-image: url("images/..."); }
+  background-image: url("../img/..."); }
 
 #proyecto-16 {
-  background-image: url("images/..."); }
+  background-image: url("../img/..."); }
 
 /*FIN GALERIA PAGINA PRINCIPAL*/
 .fondo__hablemos {
