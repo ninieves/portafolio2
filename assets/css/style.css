@@ -835,6 +835,10 @@ li {
   text-align: center;
   width: auto; }
 
+.carousel {
+  margin: 0;
+  text-align: center; }
+
 .footer {
   text-align: center;
   color: #ffffff;
