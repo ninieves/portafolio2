@@ -2,7 +2,7 @@
 var elem = document.querySelector('.grid');
 var iso = new Isotope( elem, {
   itemSelector: '.grid-item',
-  filter: '.uxui',
+  filter: '.uxui .web',
   layoutMode: 'fitRows'
 });
 
