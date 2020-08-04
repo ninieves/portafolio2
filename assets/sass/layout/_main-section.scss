@@ -220,10 +220,10 @@ li {
 
 /* FOTOS DE LOS PROYECTOS GRAFICA PÀCKAGING */
 #proyecto-09{
-  background-image: url('../img/antartica__nueva.jpg');
+  background-image: url('../img/clinique.jpg');
 }
 #proyecto-10{
-  background-image: url('../img/...');
+  background-image: url('../img/dispolab.jpg');
 }
 #proyecto-11{
   background-image: url('../img/...');
@@ -399,6 +399,7 @@ li {
   width: 30px;
   height: auto;
   padding-bottom: 1rem;
+  align-items: center;
   
 }
 
@@ -431,6 +432,10 @@ li {
   padding: 0;
   padding-top: 0;
   text-align: center;
+}
+.carousel-control-prev{
+  text-align: left;
+
 }
 
 /*pantallla medianas*/
