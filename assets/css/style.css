@@ -729,7 +729,8 @@ li {
   background-size: cover;
   background-repeat: no-repeat;
   padding: 0;
-  padding-top: 0; }
+  padding-top: 0;
+  text-align: center; }
 
 /*pantallla medianas*/
 @media (min-width: 600px) {
