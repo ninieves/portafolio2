@@ -567,7 +567,7 @@ li {
   background-image: url("../img/portal.jpg"); }
 
 #proyecto-14 {
-  background-image: url("../img/..."); }
+  background-image: url("../img/enjoy.jpg"); }
 
 #proyecto-15 {
   background-image: url("../img/..."); }
@@ -698,7 +698,11 @@ li {
   text-decoration: none; }
 
 .icono {
-  color: #2fa88a;
+  margin-left: 10px; }
+
+.herramientas {
+  padding: 0;
+  margin-top: 3px;
   width: 30px;
   height: auto;
   padding-bottom: 1rem; }
@@ -716,6 +720,17 @@ li {
   padding: 0;
   padding-top: 0; }
 
+.carrusel {
+  margin-top: 10%;
+  margin-left: 0;
+  margin-right: 0;
+  width: 80%;
+  height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0;
+  padding-top: 0; }
+
 /*pantallla medianas*/
 @media (min-width: 600px) {
   .descripcion__inicial {
@@ -726,7 +741,7 @@ li {
 /*herramienta y resumen del proyecto*/
 .resumen {
   text-align: justify;
-  margin-left: 3%;
+  margin-left: 0%;
   margin-top: 30%;
   list-style: none;
   text-decoration: none; }
@@ -734,7 +749,7 @@ li {
 @media (min-width: 600px) {
   .resumen {
     margin-left: 0%;
-    margin-top: 30%;
+    margin-top: 40%;
     list-style: none;
     text-decoration: none; } }
 /*imagen resumen del proyecto*/
